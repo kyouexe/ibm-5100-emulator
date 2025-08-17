@@ -17,12 +17,26 @@ A web-based emulator of the **IBM 5100**, one of the first portable computers re
 
 ## Usage
 
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
+1. Clone or download this repository.  
+2. Open `index.html` in your browser.  
 3. Type commands into the terminal prompt and press **Enter**.
-4. 
+
+### Using BASIC Mode
+- Enter **numbered lines** to create a program, e.g.:  
+10 print "HELLO WORLD"
+20 print 2+2
+- Commands:  
+- `run` – execute your program  
+- `list` – display all program lines  
+- `new` – clear the program  
+- `print <expression>` – evaluate a quick expression immediately  
+- Switch to BASIC mode (if in APL) with:  mode basic
+
+### Using APL Mode
+- Enter simple calculations using `+`, `-`, `×` (multiplication), and `÷` (division), e.g.:  2+2,  3×4,  10÷2
+  
 ## Built With
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
